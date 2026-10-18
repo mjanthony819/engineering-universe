@@ -6,7 +6,7 @@ The connected account had no Engineering Universe repository. A new private repo
 
 ## Information architecture
 
-`/` introduces the product and embeds a real binary lab. `/explore/` is the topic directory and prerequisite map; its list uses the same metadata. `/path/` contains ordered modules, completion and project criteria. `/learn/[slug]/` statically renders six lessons. `/labs/` gathers the three experiments. `/about/` explains status, privacy, planned branches and contribution.
+`/` introduces the product and embeds a real binary lab. `/explore/` is the topic directory and prerequisite map; its list uses the same metadata. `/path/` contains ordered modules, completion and project criteria. `/learn/[slug]/` statically renders all 24 lessons. `/labs/` gathers the three experiments. `/about/` explains status, privacy, planned branches and contribution.
 
 ## Data flow
 
