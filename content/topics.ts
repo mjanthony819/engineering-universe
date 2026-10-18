@@ -1,9 +1,7 @@
 import { lessons } from './lessons';
 import type { Topic } from './types';
 export const topics:Topic[]=[...lessons.map(l=>({id:l.id,title:l.title,discipline:l.discipline,level:l.difficulty,prerequisites:l.prerequisites,description:l.summary,lesson:l.id})),
-{id:'dom',title:'JavaScript and the DOM',discipline:'Frontend',level:'Intermediate',prerequisites:['control','html'],optional:['css'],description:'Connect browser events to document updates. Planned module.'},
 {id:'react',title:'React and TypeScript',discipline:'Frontend',level:'Intermediate',prerequisites:['dom'],description:'Typed components, state and composition. Planned module.'},
-{id:'sql',title:'Relational data and SQL',discipline:'Backend',level:'Intermediate',prerequisites:['variables'],description:'Model records, query relationships and understand transactions. Planned module.'},
 {id:'backend',title:'Backend systems',discipline:'Backend',level:'Intermediate',prerequisites:['http','control','sql'],description:'Validation, auth, persistence, testing and deployment. Planned module.'},
 {id:'linear-algebra',title:'Vectors and matrices',discipline:'Mathematics',level:'Beginner',prerequisites:[],description:'A separate mathematical entry point: vector operations and transformations. Planned module.'},
 {id:'probability',title:'Probability and statistics',discipline:'Mathematics',level:'Beginner',prerequisites:[],description:'Model uncertainty, distributions and inference. Planned module.'},
