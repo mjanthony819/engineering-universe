@@ -1,1 +1,0 @@
-import Link from 'next/link';export default function NotFound(){return <div className="wrap page"><p className="eyebrow">UNMAPPED COORDINATES</p><h1>This topic is not here.</h1><p>No lesson is published at this address.</p><Link className="text-link" href="/explore/">Return to the curriculum →</Link></div>;}
