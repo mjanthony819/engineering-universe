@@ -1,8 +1,6 @@
 import { lessons } from './lessons';
 import type { Topic } from './types';
 export const topics:Topic[]=[...lessons.map(l=>({id:l.id,title:l.title,discipline:l.discipline,level:l.difficulty,prerequisites:l.prerequisites,description:l.summary,lesson:l.id})),
-{id:'linear-algebra',title:'Vectors and matrices',discipline:'Mathematics',level:'Beginner',prerequisites:[],description:'A separate mathematical entry point: vector operations and transformations. Planned module.'},
-{id:'probability',title:'Probability and statistics',discipline:'Mathematics',level:'Beginner',prerequisites:[],description:'Model uncertainty, distributions and inference. Planned module.'},
 {id:'ml',title:'Machine learning foundations',discipline:'AI / ML',level:'Intermediate',prerequisites:['algorithms','linear-algebra','probability'],description:'Also needs Python and data tooling, covered inside this planned module. Train/validation/test separation and evaluation.'},
 {id:'deep-learning',title:'Deep learning',discipline:'AI / ML',level:'Advanced',prerequisites:['ml'],description:'Includes calculus and gradients before neural networks. Planned module.'},
 {id:'vision',title:'Computer vision',discipline:'AI / ML',level:'Advanced',prerequisites:['deep-learning'],description:'This deep-learning-based route covers images, convolution and evaluation. Classical vision is a separate future route.'},
