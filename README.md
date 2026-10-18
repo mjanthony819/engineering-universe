@@ -27,8 +27,8 @@ npm run test:e2e
 ## What's implemented
 
 - Next.js App Router, TypeScript, React, Tailwind CSS and editable shadcn-style Button.
-- React Flow explorer: 24 topics, prerequisite edges, search, filters, details and list alternative.
-- 24 source-checked lessons, 66 quiz questions, 3 deterministic labs, 24 canonical PDF guides..
+- React Flow explorer: 54 topics, prerequisite edges, search, filters, details and list alternative.
+- 54 source-checked lessons, 156 quiz questions, 3 deterministic labs, 54 canonical PDF guides..
 - One beginner path, local-only progress and bookmarks, project self-assessment.
 - Dark and light themes, responsive layouts, reduced-motion support.
 
