@@ -1,6 +1,6 @@
 import { lessons } from './lessons';
 import type { Topic } from './types';
-export const topics:Topic[]=[...lessons.map(l=>({id:l.id,title:l.title,discipline:'Foundations',level:l.difficulty,prerequisites:l.prerequisites,description:l.summary,lesson:l.id})),
+export const topics:Topic[]=[...lessons.map(l=>({id:l.id,title:l.title,discipline:l.discipline,level:l.difficulty,prerequisites:l.prerequisites,description:l.summary,lesson:l.id})),
 {id:'html',title:'Semantic HTML',discipline:'Frontend',level:'Beginner',prerequisites:['computer'],description:'Describe document structure and accessible meaning. Planned module.'},
 {id:'css',title:'CSS and responsive layout',discipline:'Frontend',level:'Beginner',prerequisites:['html'],description:'Style documents with the box model, Flexbox and Grid. Planned module.'},
 {id:'dom',title:'JavaScript and the DOM',discipline:'Frontend',level:'Intermediate',prerequisites:['control','html'],optional:['css'],description:'Connect browser events to document updates. Planned module.'},
