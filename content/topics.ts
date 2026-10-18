@@ -1,11 +1,8 @@
 import { lessons } from './lessons';
 import type { Topic } from './types';
 export const topics:Topic[]=[...lessons.map(l=>({id:l.id,title:l.title,discipline:l.discipline,level:l.difficulty,prerequisites:l.prerequisites,description:l.summary,lesson:l.id})),
-{id:'html',title:'Semantic HTML',discipline:'Frontend',level:'Beginner',prerequisites:['computer'],description:'Describe document structure and accessible meaning. Planned module.'},
-{id:'css',title:'CSS and responsive layout',discipline:'Frontend',level:'Beginner',prerequisites:['html'],description:'Style documents with the box model, Flexbox and Grid. Planned module.'},
 {id:'dom',title:'JavaScript and the DOM',discipline:'Frontend',level:'Intermediate',prerequisites:['control','html'],optional:['css'],description:'Connect browser events to document updates. Planned module.'},
 {id:'react',title:'React and TypeScript',discipline:'Frontend',level:'Intermediate',prerequisites:['dom'],description:'Typed components, state and composition. Planned module.'},
-{id:'http',title:'HTTP and APIs',discipline:'Backend',level:'Beginner',prerequisites:['computer'],description:'Requests, responses, methods and status codes. Planned module.'},
 {id:'sql',title:'Relational data and SQL',discipline:'Backend',level:'Intermediate',prerequisites:['variables'],description:'Model records, query relationships and understand transactions. Planned module.'},
 {id:'backend',title:'Backend systems',discipline:'Backend',level:'Intermediate',prerequisites:['http','control','sql'],description:'Validation, auth, persistence, testing and deployment. Planned module.'},
 {id:'linear-algebra',title:'Vectors and matrices',discipline:'Mathematics',level:'Beginner',prerequisites:[],description:'A separate mathematical entry point: vector operations and transformations. Planned module.'},
